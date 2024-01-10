@@ -1,0 +1,7 @@
+1. creation of object and passing it to the another object as a dependency is little bit
+   hectic task for multiple objects. to resolve this issue we have the spring container or
+   spring framework support. with the help of @Configuration annotated file and includes
+   @Bean objects. create application context also.
+2. If there are multiple beans with the same name then use the @Primary and @Qualifier
+   annotation.
+3. POJO vs Java Bean vs Spring Bean
