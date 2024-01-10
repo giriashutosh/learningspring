@@ -5,3 +5,11 @@
 2. If there are multiple beans with the same name then use the @Primary and @Qualifier
    annotation.
 3. POJO vs Java Bean vs Spring Bean
+4. In Bean also we are creating the object manually and auto-wiring it to resolve this issue
+   we use @Component annotation on a class for which spring will create the object and
+   use @ComponentScan to find the path for spring.
+5. @Primary - bean should be given preferences when multiple candidates qualified.
+   @Qualifier - bean should be auto-wired (which name has been specifically mention)
+6. Dependency Injection Type - Constructor-based, setter-based, Field
+7. @Autowired - Field Injection
+8. Setter method- Set Injection

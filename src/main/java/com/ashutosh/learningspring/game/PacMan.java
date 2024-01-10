@@ -1,5 +1,8 @@
 package com.ashutosh.learningspring.game;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class PacMan implements GamingConsole{
     public void down(){
         System.out.println("Down to earth pacman");
