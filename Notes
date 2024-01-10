@@ -14,3 +14,13 @@
 7. @Autowired - Field Injection
 8. Setter method- Set Injection
 9. create constructor - Constructor Injection @Autowired is not mandatory
+10. Dependency Injection - Identify beans, their dependencies and wire them together(IOC)
+    10.1 Spring Beans - An object managed by Spring Framework
+    10.2 IOC - manage the lifecycle of beans and dependencies
+         Types Application Context, BeanFactory
+    10.3 Autowiring - Process of wiring in dependencies for a spring bean.
+11. @Component use on class and @Bean use on method present in @configuration class
+    for autowiring in @component we have 3 options like above
+    for autowiring in @Bean method call and method parameters
+    @Component bean creation done by spring framework usecase for our own application
+    @Bean we need to write the bean creation code. usecase for third party libraries.
