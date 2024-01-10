@@ -54,7 +54,7 @@ class Dependency2{
 
 }
 
-
+@Configuration
 @ComponentScan
 public class DependencyInjectionLauncherApplication {
 
