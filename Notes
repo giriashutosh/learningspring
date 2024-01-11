@@ -24,3 +24,11 @@
     for autowiring in @Bean method call and method parameters
     @Component bean creation done by spring framework usecase for our own application
     @Bean we need to write the bean creation code. usecase for third party libraries.
+12. By default In java there is eager loading for spring beans.
+13. @Lazy annotation used for lazy loading.(on demand). err in runtime exception.
+14. eager init is always preferred bcz to find errs at app startup. memory consumption less.
+15. Spring Beans Scope
+    Singleton - one instance per spring IOC container (default), stateless beans
+    Prototype - multiple instance per IOC container
+    Java singleton(GOF)(per JVM) vs Spring Singleton(per IOC container), stateful beans
+16. CDI is the alternative of the Spring annotation.
